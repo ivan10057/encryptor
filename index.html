@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./pictures/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Encriptador y desencriptador de texto</title>
+</head>
+<body>
+    <header>
+            <img src="./pictures/Logo.png" alt="Logo Alura" class="logo">  
+    </header>
+
+    <main>
+        <section class="encriptador">
+            <textarea class="encriptar" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="encriptador__aviso">
+                <i class="fas fa-exclamation-circle"></i> 
+                <p class="texto__advertencia">Solo letras minusculas y sin acento.</p>
+            </div>
+            <div class="encriptador-contenedor">
+                <button type="submit" class="btton-encriptar">Encriptar</button>
+                <button type="submit" class="btton-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="tarjeta">
+           <div class="tarjeta-contenedor">
+                <img src="./pictures/dibujo.png" alt="Imagen dibujo" class="img-muñeco">
+                <p class="texto-uno">Ningún mensaje fue encontrado</p>
+                <p class="texto-dos">Ingrese el texto que deseas encriptar o desencriptar</p>
+           </div>
+           <textarea type="mensaje" class="evaluar" readonly></textarea>
+           <button type="submit" class="btton-copiar">Copiar</button>
+         </section>  
+    </main>
+
+    <footer>
+        <p class="text__footer">&copy Desarrollado por Jorge Ivan Labrador Aya</p>
+        <a class="link__footer"   href="https://github.com/ivan10057"><img src="./pictures/github.png"
+            alt="Logo github">Github</a>
+         <a class="link__footer" href="https://www.linkedin.com/in/jorge-ivan-labrador-aya-a49231231/">
+            <img src="./pictures/linkedin.png" alt="Logo Linkedin">Linkedin</a>
+    </footer>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
